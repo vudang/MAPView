@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAA28A11266A3FD20012DE01 /* MAPView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA28A07266A3FD20012DE01 /* MAPView.framework */; };
+		EAA28A16266A3FD20012DE01 /* MAPViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA28A15266A3FD20012DE01 /* MAPViewTests.swift */; };
+		EAA28A18266A3FD20012DE01 /* MAPView.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA28A0A266A3FD20012DE01 /* MAPView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAC61E05266A3FFC00C0299E /* MAPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC61E00266A3FFC00C0299E /* MAPView.swift */; };
+		EAC61E06266A3FFC00C0299E /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = EAC61E01266A3FFC00C0299E /* .gitkeep */; };
+		EAC61E07266A3FFC00C0299E /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC61E02266A3FFC00C0299E /* CameraPreview.swift */; };
+		EAC61E08266A3FFC00C0299E /* MAPView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAC61E04266A3FFC00C0299E /* MAPView.xib */; };
+		EAC61E0E266A401000C0299E /* CameraCapture.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC61E0D266A401000C0299E /* CameraCapture.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAA28A12266A3FD20012DE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAA289FE266A3FD20012DE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA28A06266A3FD20012DE01;
+			remoteInfo = MAPView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAA28A07266A3FD20012DE01 /* MAPView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAPView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA28A0A266A3FD20012DE01 /* MAPView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MAPView.h; sourceTree = "<group>"; };
+		EAA28A0B266A3FD20012DE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAA28A10266A3FD20012DE01 /* MAPViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAPViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA28A15266A3FD20012DE01 /* MAPViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAPViewTests.swift; sourceTree = "<group>"; };
+		EAA28A17266A3FD20012DE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC61E00266A3FFC00C0299E /* MAPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAPView.swift; sourceTree = "<group>"; };
+		EAC61E01266A3FFC00C0299E /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EAC61E02266A3FFC00C0299E /* CameraPreview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		EAC61E04266A3FFC00C0299E /* MAPView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MAPView.xib; sourceTree = "<group>"; };
+		EAC61E0D266A401000C0299E /* CameraCapture.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CameraCapture.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA28A04266A3FD20012DE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC61E0E266A401000C0299E /* CameraCapture.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA28A0D266A3FD20012DE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA28A11266A3FD20012DE01 /* MAPView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA289FD266A3FD20012DE01 = {
+			isa = PBXGroup;
+			children = (
+				EAA28A09266A3FD20012DE01 /* MAPView */,
+				EAA28A14266A3FD20012DE01 /* MAPViewTests */,
+				EAA28A08266A3FD20012DE01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA28A08266A3FD20012DE01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA28A07266A3FD20012DE01 /* MAPView.framework */,
+				EAA28A10266A3FD20012DE01 /* MAPViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA28A09266A3FD20012DE01 /* MAPView */ = {
+			isa = PBXGroup;
+			children = (
+				EAC61E0D266A401000C0299E /* CameraCapture.xcframework */,
+				EAC61DFF266A3FFC00C0299E /* Classes */,
+				EAC61E03266A3FFC00C0299E /* Resources */,
+				EAA28A0A266A3FD20012DE01 /* MAPView.h */,
+				EAA28A0B266A3FD20012DE01 /* Info.plist */,
+			);
+			path = MAPView;
+			sourceTree = "<group>";
+		};
+		EAA28A14266A3FD20012DE01 /* MAPViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAA28A15266A3FD20012DE01 /* MAPViewTests.swift */,
+				EAA28A17266A3FD20012DE01 /* Info.plist */,
+			);
+			path = MAPViewTests;
+			sourceTree = "<group>";
+		};
+		EAC61DFF266A3FFC00C0299E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAC61E00266A3FFC00C0299E /* MAPView.swift */,
+				EAC61E01266A3FFC00C0299E /* .gitkeep */,
+				EAC61E02266A3FFC00C0299E /* CameraPreview.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EAC61E03266A3FFC00C0299E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAC61E04266A3FFC00C0299E /* MAPView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EAA28A02266A3FD20012DE01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA28A18266A3FD20012DE01 /* MAPView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EAA28A06266A3FD20012DE01 /* MAPView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA28A1B266A3FD20012DE01 /* Build configuration list for PBXNativeTarget "MAPView" */;
+			buildPhases = (
+				EAA28A02266A3FD20012DE01 /* Headers */,
+				EAA28A03266A3FD20012DE01 /* Sources */,
+				EAA28A04266A3FD20012DE01 /* Frameworks */,
+				EAA28A05266A3FD20012DE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAPView;
+			productName = MAPView;
+			productReference = EAA28A07266A3FD20012DE01 /* MAPView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAA28A0F266A3FD20012DE01 /* MAPViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA28A1E266A3FD20012DE01 /* Build configuration list for PBXNativeTarget "MAPViewTests" */;
+			buildPhases = (
+				EAA28A0C266A3FD20012DE01 /* Sources */,
+				EAA28A0D266A3FD20012DE01 /* Frameworks */,
+				EAA28A0E266A3FD20012DE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAA28A13266A3FD20012DE01 /* PBXTargetDependency */,
+			);
+			name = MAPViewTests;
+			productName = MAPViewTests;
+			productReference = EAA28A10266A3FD20012DE01 /* MAPViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA289FE266A3FD20012DE01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					EAA28A06266A3FD20012DE01 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					EAA28A0F266A3FD20012DE01 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = EAA28A01266A3FD20012DE01 /* Build configuration list for PBXProject "MAPView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAA289FD266A3FD20012DE01;
+			productRefGroup = EAA28A08266A3FD20012DE01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA28A06266A3FD20012DE01 /* MAPView */,
+				EAA28A0F266A3FD20012DE01 /* MAPViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA28A05266A3FD20012DE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC61E06266A3FFC00C0299E /* .gitkeep in Resources */,
+				EAC61E08266A3FFC00C0299E /* MAPView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA28A0E266A3FD20012DE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA28A03266A3FD20012DE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAC61E05266A3FFC00C0299E /* MAPView.swift in Sources */,
+				EAC61E07266A3FFC00C0299E /* CameraPreview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA28A0C266A3FD20012DE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA28A16266A3FD20012DE01 /* MAPViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAA28A13266A3FD20012DE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAA28A06266A3FD20012DE01 /* MAPView */;
+			targetProxy = EAA28A12266A3FD20012DE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EAA28A19266A3FD20012DE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAA28A1A266A3FD20012DE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAA28A1C266A3FD20012DE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MAPView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracity.MAPView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA28A1D266A3FD20012DE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MAPView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracity.MAPView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAA28A1F266A3FD20012DE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				INFOPLIST_FILE = MAPViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracity.MAPViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA28A20266A3FD20012DE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4DT45S7HNY;
+				INFOPLIST_FILE = MAPViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veracity.MAPViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA28A01266A3FD20012DE01 /* Build configuration list for PBXProject "MAPView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA28A19266A3FD20012DE01 /* Debug */,
+				EAA28A1A266A3FD20012DE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA28A1B266A3FD20012DE01 /* Build configuration list for PBXNativeTarget "MAPView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA28A1C266A3FD20012DE01 /* Debug */,
+				EAA28A1D266A3FD20012DE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA28A1E266A3FD20012DE01 /* Build configuration list for PBXNativeTarget "MAPViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA28A1F266A3FD20012DE01 /* Debug */,
+				EAA28A20266A3FD20012DE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA289FE266A3FD20012DE01 /* Project object */;
+}

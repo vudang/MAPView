@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MAPView" customModule="MAPView" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraPreview" destination="Gjo-76-pVw" id="Yuw-jd-nJp"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="g7i-ow-gBO"/>
+                <outlet property="contextView" destination="7WH-FP-HHV" id="hYb-MY-sb8"/>
+                <outlet property="overviewImageView" destination="Rm0-zq-Oi4" id="r0N-fa-EbU"/>
+                <outlet property="scrollView" destination="VNe-go-4dc" id="qQ6-z5-aip"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="525"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VNe-go-4dc">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="525"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WH-FP-HHV">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="525"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rm0-zq-Oi4">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="525"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gjo-76-pVw" customClass="CameraPreview" customModule="MAPView" customModuleProvider="target">
+                                    <rect key="frame" x="150" y="212.5" width="75" height="100"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </view>
+                            </subviews>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="7WH-FP-HHV" firstAttribute="centerX" secondItem="VNe-go-4dc" secondAttribute="centerX" id="1Zl-TW-J9u"/>
+                        <constraint firstItem="7WH-FP-HHV" firstAttribute="leading" secondItem="VNe-go-4dc" secondAttribute="leading" id="AkB-F7-qab"/>
+                        <constraint firstAttribute="trailing" secondItem="7WH-FP-HHV" secondAttribute="trailing" id="btD-My-swQ"/>
+                        <constraint firstItem="7WH-FP-HHV" firstAttribute="top" secondItem="VNe-go-4dc" secondAttribute="top" id="hhD-xl-ZSo"/>
+                        <constraint firstAttribute="bottom" secondItem="7WH-FP-HHV" secondAttribute="bottom" id="jcG-XQ-7bT"/>
+                        <constraint firstItem="7WH-FP-HHV" firstAttribute="centerY" secondItem="VNe-go-4dc" secondAttribute="centerY" id="vOz-DZ-AHz"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="VNe-go-4dc" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="10z-va-EGV"/>
+                <constraint firstItem="VNe-go-4dc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5Gm-rh-ROC"/>
+                <constraint firstItem="VNe-go-4dc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ZrC-xX-SQI"/>
+                <constraint firstItem="VNe-go-4dc" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="ssu-Gb-ryP"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="138.40000000000001" y="218.1409295352324"/>
+        </view>
+    </objects>
+</document>

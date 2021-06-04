@@ -1,0 +1,11 @@
+framework module CameraCapture {
+  umbrella header "CameraCapture.h"
+
+  export *
+  module * { export * }
+}
+
+module CameraCapture.Swift {
+    header "CameraCapture-Swift.h"
+    requires objc
+}
